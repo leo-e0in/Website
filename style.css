@@ -1,0 +1,24 @@
+html {
+  background-image: url("assets/background.jpg");
+  font-family: "Mojang", sans-serif;
+  font-weight: normal;
+}
+
+p {
+  color: white;
+  font-size: 75px;
+}
+
+
+@font-face {
+  font-family: "Mojang-";
+  src: url(assets/fonts/mojang/Mojang-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mojang";
+  src: url(assets/fonts/mojang/Mojang-Bold.ttf);
+  font-weight: bold;
+}
+
