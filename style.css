@@ -1,17 +1,24 @@
 html {
-  background-image: url("assets/background.jpg");
+  background-color:#303030;
   font-family: "Mojang", sans-serif;
   font-weight: normal;
+  color: white;
+  text-align: center;
 }
 
-p {
+header {
+  padding-top: 20px;
+  padding-bottom: 40px;
   color: white;
-  font-size: 75px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
 }
+
 
 
 @font-face {
-  font-family: "Mojang-";
+  font-family: "Mojang";
   src: url(assets/fonts/mojang/Mojang-Regular.ttf);
   font-weight: normal;
 }
@@ -22,3 +29,28 @@ p {
   font-weight: bold;
 }
 
+.hyfetchBox {
+  background-color: rgba(141, 141, 141, 0.1); /* Semi-transparent dark grey */
+  color: white; /* Text color */
+  padding: 20px;
+  width: 500px;
+  text-align: left; /* Align text to the left */
+  border-radius: 10px;
+  margin: 20px auto; /* Center the box */
+  font-family: monospace;
+  border: 2px solid black; /* White border */
+}
+
+.factBox {
+  background-color: rgba(141, 141, 141, 0.1); /* Semi-transparent dark grey */
+  color: white; /* Text color */
+  padding: 20px;
+  width: 500px;
+  letter-spacing: 0px;
+  word-spacing: 5px;
+  line-height: 30px;
+  text-align: left; /* Align text to the left */
+  border-radius: 10px;
+  margin: 20px auto; /* Center the box */
+  border: 2px solid black; /* White border */
+}
