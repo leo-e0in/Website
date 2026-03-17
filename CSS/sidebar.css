@@ -1,10 +1,8 @@
-@import url("/css/fonts.css");
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    position: relative;
-    background-color:#1a1a1a;
+.sidebar h2 {
+    color: white;
+    padding-left: 50px;
+    font-family: 'Mojang', sans-serif;
+    font-weight: bold;
 }
 
 .sidebar {
@@ -16,6 +14,7 @@ body {
     transition: left 0.3s ease; /* Smooth transition */
 }
 
+
 .sidebar-hover-area {
     width: 300px; /* Narrow area for hovering */
     height: 100vh;
@@ -26,13 +25,6 @@ body {
 
 .sidebar.show {
     left: 0; /* Show sidebar */
-}
-
-.sidebar h2 {
-    color: white;
-    padding-left: 50px;
-    font-family: 'Mojang', sans-serif;
-    font-weight: bold;
 }
 
 .sidebar ul {
@@ -56,17 +48,7 @@ body {
 }
 
 
-.content h1 {
-    color: white;
-    text-align: center;
-    margin:0;
-    padding:20px;
-    font-family: 'Ubuntu Mono', monospace;
-    font-weight: bold;
-
-}
-
-.sidebarToggle {
+#sidebarToggle {
     margin-top: 6px;
     position: fixed;
     left: 10px;
@@ -77,3 +59,5 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+
+
