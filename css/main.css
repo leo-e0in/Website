@@ -21,5 +21,11 @@ body {
 
 }
 
-.content li {
-  margin-left: 40px;
+.projectBox
+{
+    padding-bottom: 30px;
+}
+
+.list{
+    padding-left:3%;
+}
