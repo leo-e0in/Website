@@ -1,9 +1,10 @@
 .content h1 {
-    color: white;
+    color: rgb(0, 255, 30);;
     text-align: center;
     padding-bottom:2%;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'VT323', monospace;
     font-weight: bold;
+
 }
 
 
@@ -11,14 +12,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     position: relative;
-    background-color:#1a1a1a;
+    background-color:#000000;
     color: white;
 }
 
 .content p, h2{
     padding-left:5%;
     padding-right:5%;
+    font-family: 'Ubuntu-Mono', monospace;
+}
 
+.content h2{
+    color:rgb(0, 255, 30);
+    font-family: VT323, monospace;
 }
 
 .projectBox
@@ -28,4 +34,5 @@ body {
 
 .list{
     padding-left:3%;
+    font-family: 'Ubuntu Mono', monospace;
 }

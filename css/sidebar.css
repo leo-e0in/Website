@@ -4,7 +4,7 @@
     left: 10px;
     top: 10px;
     background-color: rgba(0, 0, 0, 0.0);
-    color: white;
+    color:white;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -54,7 +54,8 @@
 
 .sidebar ul li a:hover {
     text-decoration: underline;
-    padding: 0px;
+    color:rgb(0, 255, 30);
+
 
 }
 
