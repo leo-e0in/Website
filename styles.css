@@ -10,6 +10,16 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf);
+  font-weight: bold;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,7 +30,7 @@ body {
 .sidebar {
     width: 250px;
     height: 100vh;
-    background-color: #131313;
+    background-color: rgb(19, 19, 19, 0.8);
     position: fixed; /* Keep sidebar in view */
     left: -250px; /* Start off-screen */
     transition: left 0.3s ease; /* Smooth transition */
@@ -65,13 +75,15 @@ body {
 
 }
 
-.content {
-    margin-left: 100px;
-    padding: 40px;
-}
 
 .content h1 {
-    color: #333;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding:20px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+
 }
 
 #sidebarToggle {

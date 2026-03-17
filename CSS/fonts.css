@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Mojang";
+  src: url(/assets/fonts/mojang/Mojang-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Mojang";
+  src: url(/assets/fonts/mojang/Mojang-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mojang";
+  src: url(/assets/fonts/Ubuntu_Mono/UbuntuMono-Bold.ttf);
+  font-weight: bold;
+}
