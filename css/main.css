@@ -1,11 +1,9 @@
 .content h1 {
     color: white;
     text-align: center;
-  
+    padding-bottom:2%;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: bold;
-    
-
 }
 
 
@@ -22,3 +20,6 @@ body {
     padding-right:5%;
 
 }
+
+.content li {
+  margin-left: 40px;
