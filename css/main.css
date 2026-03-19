@@ -41,3 +41,11 @@ body {
 .infoBox{
     font-family: 'Ubuntu Mono', monospace;
 }
+
+.skills{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(0, 255, 30, 0.5);
+    padding-left:5%;
+    padding-right:5%;
+    font-weight: bold;
+}
